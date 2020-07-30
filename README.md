@@ -6,6 +6,8 @@ This is a getting started kaggle challenge on Natural language processing[NLP wi
 
 ##### Task content: build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. You’ll have access to a dataset of 10,000 tweets that were hand classified.
 
+The dataset is available at [Kaggle](https://www.kaggle.com/c/nlp-getting-started/data)(train and test data).
+
 > We will use various machine learning models to see how accurate they are in classifying disaster tweets.The models explored are:
 
 * Using linear model RidgeClassifier and scikit-learn's CountVectorizer to count the words, and modelling by  EDA(Exploratory Data Analysis), Bag of Words, TF IDF, GloVe( global vectors for word representation) and implementing Baseline Model with GloVe(NLP_with_Disaster_Tweets.ipynb)
@@ -33,7 +35,8 @@ Accuracy score: 0.81(not bad)
 
 * Naive Bayes - Classification model based on Bayes Theorem.Implementation of functions like Likelihood of an entire message belonging to a particular class,Likelihood of an entire message across all possible classes using sklearn library. Accuracy score: 0.78(OK)
 
-## Transformer+SVM+Semantically Similar Tweets:(Accuracy Score - 0.837)
+## Transformer+SVM+Semantically Similar Tweets:(Accuracy Score - 0.837) - The output file obtained after predicting on test data is in submission.csv file
+
 
 **Pipeline of the model - Text cleaning/preprocessing(+) + Transformer + Support Vector Machine + Majority voting for semantically equivalent but mislabelled tweets + Filtering basing on keywords**
 
